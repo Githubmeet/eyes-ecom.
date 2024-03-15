@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report and Analysis - EYEWEAR</title>
+    <style>
+        /* Global Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Sidebar Styles */
+        .sidebar {
+            width: 250px;
+            background-color: #222;
+            color: #fff;
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            padding-top: 60px;
+            overflow-y: auto;
+        }
+
+        .sidebar ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .sidebar li {
+            padding: 10px;
+            border-bottom: 1px solid #444;
+        }
+
+        .sidebar li a {
+            color: #fff;
+            text-decoration: none;
+            display: block;
+        }
+
+        .sidebar li a:hover {
+            background-color: #444;
+        }
+
+        /* Content Styles */
+        .content {
+            margin-left: 250px;
+            padding: 20px;
+        }
+
+        /* Report and Analysis Styles */
+        .report {
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .report h2 {
+            margin-bottom: 20px;
+        }
+
+        .report p {
+            margin-bottom: 10px;
+        }
+
+        .analytics {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .analytics .analytics-item {
+            width: calc(50% - 20px);
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .analytics .analytics-item h3 {
+            margin-bottom: 10px;
+        }
+
+        .analytics .analytics-item p {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Report and Analysis - EYEWEAR</h1>
+    </header>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <ul>
+            <li><a href="admin_dashboard.html">Dashboard</a></li>
+            <li><a href="admin_product.html">Products</a></li>
+            <li><a href="admin_order.html">Orders</a></li>
+            <li><a href="admin_customer.html">Customers</a></li>
+            <li><a href="admin_inventory.html">inventory</a></li>
+            <li><a href="admin_analysis.html">Analytics</a></li>
+            <!-- <li><a href="#">Settings</a></li> -->
+            <li><a href="admin login.html">Logout</a></li>
+        </ul>
+    </div>
+
+    <!-- Content -->
+    <div class="content">
+        <div class="report">
+            <h2>Overall Sales Report</h2>
+            <p>Total Orders: 100</p>
+            <p>Total Revenue: ₹5000</p>
+        </div>
+
+        <div class="analytics">
+            <div class="analytics-item">
+                <h3>Product Sales</h3>
+                <p>Top Selling Product: Vincent Chase </p>
+                <p>Revenue from Vincent Chase : ₹3000</p>
+                <p>Least Selling Product: Sunglasses</p>
+                <p>Revenue from Vincent Chase : ₹1000</p>
+            </div>
+            <div class="analytics-item">
+                <h3>Customer Insights</h3>
+                <p>Total Customers: 50</p>
+                <p>New Customers this Month: 10</p>
+                <p>Repeat Customers: 40</p>
+                <p>Customers with High Purchase Frequency: 20</p>
+            </div>
+            <div class="analytics-item">
+                <h3>Inventory Analysis</h3>
+                <p>Total Products in Inventory: 150</p>
+                <p>Top Selling Product: Vincent Chase </p>
+                <p>Quantity Sold: 80</p>
+                <p>Least Selling Product: Sunglasses</p>
+                <p>Quantity Sold: 30</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
